@@ -42,6 +42,7 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -52,6 +53,7 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Release\ServiceStack.Interfaces.XML</DocumentationFile>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'MONOTOUCH|AnyCPU'">
     <OutputPath>bin\MONOTOUCH\</OutputPath>
@@ -69,6 +71,7 @@
     <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
     <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
     <WarningLevel>4</WarningLevel>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

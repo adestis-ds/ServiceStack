@@ -41,6 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -51,6 +52,7 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Release\ServiceStack.Common.XML</DocumentationFile>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'STATIC_ONLY NO_EXPRESSIONS|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -62,6 +64,7 @@
     <WarningLevel>4</WarningLevel>
     <Optimize>False</Optimize>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'MonoTouch|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -73,6 +76,7 @@
     <WarningLevel>4</WarningLevel>
     <Optimize>False</Optimize>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <KeyContainerName>ADESTIS_Development</KeyContainerName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
