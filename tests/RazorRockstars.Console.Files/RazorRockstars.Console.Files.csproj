@@ -35,7 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MsgPack, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MsgPack">
+      <HintPath>..\..\lib\MsgPack.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceStack.OrmLite, Version=3.9.9.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\lib\ServiceStack.OrmLite.dll</HintPath>
